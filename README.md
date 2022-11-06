@@ -16,9 +16,14 @@ was Librosa. We have used [Mel Frequency Cepstrum Coefficienct](https://en.wikip
 
 **About the dataset**
 
+<p align="left">
+  <img src="https://github.com/9dubs/test/blob/main/dataset.png" width="650" title="Dataset Info">
+</p>
+
 The [dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) was developed by GTZAN and weighs about 1GB in total. It has about 10 
 genres, and 100 10 second audio samples for training the model. The extracted features were first preproccessed before actually making use of it to classify the genre.
 The Librosa module was essentially used to figure out the MFCC of the input audio sample. 
+
 
 
 Please run the ```requirements.txt``` file to get all the dependencies ready for running this application.
